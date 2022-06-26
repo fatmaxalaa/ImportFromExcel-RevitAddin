@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>Excel.dll</Assembly>
+		<AddInId>4A9A09C2-7BDC-485A-A5B8-283ABBD508E1</AddInId>
+		<FullClassName>Excel.Class1</FullClassName>
+		<Text>Excel</Text>
+		<Description>Excel</Description>
+		<VendorId>ITI-Mesawy</VendorId>
+		<VendorDescription>BIM Development</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>Excel.dll</Assembly>
+		<AddInId>D3EBB743-9BAE-46FD-A8D8-392D143B0462</AddInId>
+		<FullClassName>Excel.Class2</FullClassName>
+		<Text>Excel</Text>
+		<Description>Excel</Description>
+		<VendorId>ITI-Mesawy</VendorId>
+		<VendorDescription>BIM Development</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+
+	</AddIn>
+	
+
+	
+	<AddIn Type="Application">
+		<Name>MyRevitCommands</Name>
+		<Assembly>Excel.dll</Assembly>
+		<AddInId>FC0F8ABF-581A-42DA-8DDD-A08245BFF68A</AddInId>
+		<FullClassName>Excel.ExternalApplication</FullClassName>
+		<Text>Sheets</Text>
+		<Description>Create Sheets From Excel </Description>
+		<VendorId>ITI-Mesawy</VendorId>
+		<VendorDescription>BIM Development</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	
+	
+	
+
+
+</RevitAddIns>
